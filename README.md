@@ -52,16 +52,17 @@ This project is a **Product Catalog API** developed using .NET Core. The API pro
 ## Project Structure
 ```
 ProductCatalogAPI/
-├── Controllers/
-│   └── ProductController.cs
-├── Models/
-│   └── Product.cs
-├── Data/
-│   └── ApplicationDbContext.cs
-├── Tests/
-│   └── ProductApiTests.cs
-├── Program.cs
-├── appsettings.json
+├── BAL/
+│   └── ProductService.cs
+├── DAL/
+│   └── Models/
+|       └── Product.cs
+|       └── ApplicationDbContext.cs 
+├── Presentation_Layer/
+|   └── Controllers/
+│       └── ProductController.cs
+|   ├── Program.cs
+|   ├── appsettings.json
 └── README.md
 ```
 
